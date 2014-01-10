@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.5.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="WIFI_MODULE">
+<wire x1="-11.55" y1="-16.4" x2="-11.55" y2="16.4" width="0.127" layer="21"/>
+<wire x1="-11.55" y1="16.4" x2="11.55" y2="16.4" width="0.127" layer="21"/>
+<wire x1="11.55" y1="16.4" x2="11.55" y2="-16.4" width="0.127" layer="21"/>
+<wire x1="11.55" y1="-16.4" x2="-11.55" y2="-16.4" width="0.127" layer="21"/>
+<smd name="GND2" x="-11.55" y="-12.6" dx="2" dy="0.8" layer="1"/>
+<smd name="PWM1" x="-11.55" y="-11.33" dx="2" dy="0.8" layer="1"/>
+<smd name="NC4" x="-11.55" y="-10.06" dx="2" dy="0.8" layer="1"/>
+<smd name="NC3" x="-11.55" y="-8.79" dx="2" dy="0.8" layer="1"/>
+<smd name="ALARM2" x="-11.55" y="-7.52" dx="2" dy="0.8" layer="1"/>
+<smd name="ADC2" x="-11.55" y="-6.25" dx="2" dy="0.8" layer="1"/>
+<smd name="ADC1" x="-11.55" y="-4.98" dx="2" dy="0.8" layer="1"/>
+<smd name="NC2" x="-11.55" y="-3.71" dx="2" dy="0.8" layer="1"/>
+<smd name="DVDD1" x="-11.55" y="-2.44" dx="2" dy="0.8" layer="1"/>
+<smd name="RTC_OUT1" x="-11.55" y="-1.17" dx="2" dy="0.8" layer="1"/>
+<smd name="ALARM1" x="-11.55" y="0.1" dx="2" dy="0.8" layer="1"/>
+<smd name="NC1" x="-11.55" y="1.37" dx="2" dy="0.8" layer="1"/>
+<smd name="JTAG_TMS" x="-11.55" y="2.64" dx="2" dy="0.8" layer="1"/>
+<smd name="JTAG_TDI" x="-11.55" y="3.91" dx="2" dy="0.8" layer="1"/>
+<smd name="JTAG_TDO" x="-11.55" y="5.18" dx="2" dy="0.8" layer="1"/>
+<smd name="JTAG_TCK" x="-11.55" y="6.45" dx="2" dy="0.8" layer="1"/>
+<smd name="GND1" x="-11.55" y="7.72" dx="2" dy="0.8" layer="1"/>
+<smd name="GND3" x="11.55" y="-12.6" dx="2" dy="0.8" layer="1"/>
+<smd name="NC8" x="11.55" y="-11.33" dx="2" dy="0.8" layer="1"/>
+<smd name="DVDD3" x="11.55" y="-10.06" dx="2" dy="0.8" layer="1"/>
+<smd name="GPIO35" x="11.55" y="-8.79" dx="2" dy="0.8" layer="1"/>
+<smd name="NC9" x="11.55" y="-7.52" dx="2" dy="0.8" layer="1"/>
+<smd name="NC10" x="11.55" y="-6.25" dx="2" dy="0.8" layer="1"/>
+<smd name="NC11" x="11.55" y="-4.98" dx="2" dy="0.8" layer="1"/>
+<smd name="UART0_TX" x="11.55" y="-3.71" dx="2" dy="0.8" layer="1"/>
+<smd name="UART0_RTS" x="11.55" y="-2.44" dx="2" dy="0.8" layer="1"/>
+<smd name="UART0_RX" x="11.55" y="-1.17" dx="2" dy="0.8" layer="1"/>
+<smd name="UART0_CTS" x="11.55" y="0.1" dx="2" dy="0.8" layer="1"/>
+<smd name="NLINK" x="11.55" y="1.37" dx="2" dy="0.8" layer="1"/>
+<smd name="NREADY" x="11.55" y="2.64" dx="2" dy="0.8" layer="1"/>
+<smd name="NRELOAD" x="11.55" y="3.91" dx="2" dy="0.8" layer="1"/>
+<smd name="GPIO2" x="11.55" y="5.18" dx="2" dy="0.8" layer="1"/>
+<smd name="EXT_RESET" x="11.55" y="6.45" dx="2" dy="0.8" layer="1"/>
+<smd name="GND4" x="11.55" y="7.72" dx="2" dy="0.8" layer="1"/>
+<smd name="DVDD2" x="8.25" y="-16.4" dx="0.8" dy="2" layer="1"/>
+<smd name="NC5" x="-8.25" y="-16.4" dx="0.8" dy="2" layer="1"/>
+<smd name="NC6" x="-6.98" y="-16.4" dx="0.8" dy="2" layer="1"/>
+<smd name="PWM2" x="-5.71" y="-16.4" dx="0.8" dy="2" layer="1"/>
+<smd name="USB_D-" x="-4.44" y="-16.4" dx="0.8" dy="2" layer="1"/>
+<smd name="USB_D+" x="-3.17" y="-16.4" dx="0.8" dy="2" layer="1"/>
+<smd name="GPIO1" x="-1.9" y="-16.4" dx="0.8" dy="2" layer="1"/>
+<smd name="PWM0" x="-0.63" y="-16.4" dx="0.8" dy="2" layer="1"/>
+<smd name="NC7" x="0.64" y="-16.4" dx="0.8" dy="2" layer="1"/>
+<smd name="GPIO0" x="1.91" y="-16.4" dx="0.8" dy="2" layer="1"/>
+<smd name="SPI_MISO" x="3.18" y="-16.4" dx="0.8" dy="2" layer="1"/>
+<smd name="SPI_CLK" x="4.45" y="-16.4" dx="0.8" dy="2" layer="1"/>
+<smd name="SPI_CS" x="5.72" y="-16.4" dx="0.8" dy="2" layer="1"/>
+<smd name="SPI_MOSI" x="6.99" y="-16.4" dx="0.8" dy="2" layer="1"/>
+<rectangle x1="-11.55" y1="8.2" x2="11.55" y2="16.4" layer="39"/>
+</package>
+</packages>
+<symbols>
+<symbol name="WIFI_MODULE">
+<pin name="GND" x="-15.24" y="22.86" length="middle"/>
+<pin name="JTAG_TCK" x="-15.24" y="20.32" length="middle"/>
+<pin name="JTAG_TDO" x="-15.24" y="17.78" length="middle"/>
+<pin name="JTAG_TDI" x="-15.24" y="15.24" length="middle"/>
+<pin name="JTAG_TMS" x="-15.24" y="12.7" length="middle"/>
+<pin name="ALARM1" x="-15.24" y="10.16" length="middle"/>
+<pin name="RTC_OUT1" x="-15.24" y="7.62" length="middle"/>
+<pin name="DVDD" x="-15.24" y="5.08" length="middle"/>
+<pin name="ADC1" x="-15.24" y="2.54" length="middle"/>
+<pin name="ADC2" x="-15.24" y="0" length="middle"/>
+<pin name="ALARM2" x="-15.24" y="-2.54" length="middle"/>
+<pin name="PWM1" x="-15.24" y="-5.08" length="middle"/>
+<pin name="PWM2" x="0" y="-25.4" length="middle" rot="R90"/>
+<pin name="USB_D-" x="2.54" y="-25.4" length="middle" rot="R90"/>
+<pin name="USB_D+" x="5.08" y="-25.4" length="middle" rot="R90"/>
+<pin name="GPIO1" x="7.62" y="-25.4" length="middle" rot="R90"/>
+<pin name="PWM0" x="10.16" y="-25.4" length="middle" rot="R90"/>
+<pin name="GPIO0" x="12.7" y="-25.4" length="middle" rot="R90"/>
+<pin name="SPI_MISO" x="15.24" y="-25.4" length="middle" rot="R90"/>
+<pin name="SPI_CLK" x="17.78" y="-25.4" length="middle" rot="R90"/>
+<pin name="SPI_CS" x="20.32" y="-25.4" length="middle" rot="R90"/>
+<pin name="SPI_MOSI" x="22.86" y="-25.4" length="middle" rot="R90"/>
+<pin name="GPIO35" x="38.1" y="-5.08" length="middle" rot="R180"/>
+<pin name="UART0_TX" x="38.1" y="-2.54" length="middle" rot="R180"/>
+<pin name="UART0_RTS" x="38.1" y="0" length="middle" rot="R180"/>
+<pin name="UART0_RX" x="38.1" y="2.54" length="middle" rot="R180"/>
+<pin name="UART0_CTS" x="38.1" y="5.08" length="middle" rot="R180"/>
+<pin name="NLINK" x="38.1" y="7.62" length="middle" rot="R180"/>
+<pin name="NREADY" x="38.1" y="10.16" length="middle" rot="R180"/>
+<pin name="NRELOAD" x="38.1" y="12.7" length="middle" rot="R180"/>
+<pin name="GPIO2" x="38.1" y="15.24" length="middle" rot="R180"/>
+<pin name="EXT_RESET" x="38.1" y="17.78" length="middle" rot="R180"/>
+<wire x1="-10.16" y1="25.4" x2="-10.16" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-20.32" x2="33.02" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="33.02" y1="-20.32" x2="33.02" y2="25.4" width="0.254" layer="94"/>
+<wire x1="33.02" y1="25.4" x2="-10.16" y2="25.4" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="USR_WIFI">
+<description>USR WiFi Module</description>
+<gates>
+<gate name="G$1" symbol="WIFI_MODULE" x="-12.7" y="0"/>
+</gates>
+<devices>
+<device name="" package="WIFI_MODULE">
+<connects>
+<connect gate="G$1" pin="ADC1" pad="ADC1"/>
+<connect gate="G$1" pin="ADC2" pad="ADC2"/>
+<connect gate="G$1" pin="ALARM1" pad="ALARM1"/>
+<connect gate="G$1" pin="ALARM2" pad="ALARM2"/>
+<connect gate="G$1" pin="DVDD" pad="DVDD1 DVDD2 DVDD3"/>
+<connect gate="G$1" pin="EXT_RESET" pad="EXT_RESET"/>
+<connect gate="G$1" pin="GND" pad="GND1 GND2 GND3 GND4"/>
+<connect gate="G$1" pin="GPIO0" pad="GPIO0"/>
+<connect gate="G$1" pin="GPIO1" pad="GPIO1"/>
+<connect gate="G$1" pin="GPIO2" pad="GPIO2"/>
+<connect gate="G$1" pin="GPIO35" pad="GPIO35"/>
+<connect gate="G$1" pin="JTAG_TCK" pad="JTAG_TCK"/>
+<connect gate="G$1" pin="JTAG_TDI" pad="JTAG_TDI"/>
+<connect gate="G$1" pin="JTAG_TDO" pad="JTAG_TDO"/>
+<connect gate="G$1" pin="JTAG_TMS" pad="JTAG_TMS"/>
+<connect gate="G$1" pin="NLINK" pad="NLINK"/>
+<connect gate="G$1" pin="NREADY" pad="NREADY"/>
+<connect gate="G$1" pin="NRELOAD" pad="NRELOAD"/>
+<connect gate="G$1" pin="PWM0" pad="PWM0"/>
+<connect gate="G$1" pin="PWM1" pad="PWM1"/>
+<connect gate="G$1" pin="PWM2" pad="PWM2"/>
+<connect gate="G$1" pin="RTC_OUT1" pad="RTC_OUT1"/>
+<connect gate="G$1" pin="SPI_CLK" pad="SPI_CLK"/>
+<connect gate="G$1" pin="SPI_CS" pad="SPI_CS"/>
+<connect gate="G$1" pin="SPI_MISO" pad="SPI_MISO"/>
+<connect gate="G$1" pin="SPI_MOSI" pad="SPI_MOSI"/>
+<connect gate="G$1" pin="UART0_CTS" pad="UART0_CTS"/>
+<connect gate="G$1" pin="UART0_RTS" pad="UART0_RTS"/>
+<connect gate="G$1" pin="UART0_RX" pad="UART0_RX"/>
+<connect gate="G$1" pin="UART0_TX" pad="UART0_TX"/>
+<connect gate="G$1" pin="USB_D+" pad="USB_D+"/>
+<connect gate="G$1" pin="USB_D-" pad="USB_D-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
